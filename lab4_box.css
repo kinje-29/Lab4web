@@ -1,0 +1,22 @@
+div{
+    float: left;
+    padding: 10px;
+}
+.div1{
+    background: gray;
+}
+.div2{
+    background: red;
+    clear: right;
+}
+.div3{
+    background: green;
+    clear: both;
+}
+
+/* Mengatur Clearfix Element */
+.div4{
+    background-color: blue;
+    clear: left;
+    float: none;
+}
