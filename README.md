@@ -3,11 +3,8 @@
 ### Membuat Box Element
 ![Gambar/1.png](Gambar/1.png)
         `<header>` element merepresentasikan konten pengantar, pembukaan atau navigasi yang terdiri dari deretan link.
-
         HTML tag `<section>` merepresentasikan sebuah bagian dokumen atau aplikasi. Secara kontekstual, `<section>` element digunakan untuk mengelompokkan konten/dokumen menjadi beberapa bagian berdasarkan tema atau pokok pikiran masing-masing.
-
         Float digunakan untuk mengatur posisi elemen secara horizontal, Value yang bisa anda gunakan untuk property float ini ada left,right,inherit, dan none.
-
         (clear CSS) digunakan untuk membersihkan element yang sebelumnya telah mengalami float/ Sehingga element yang di-clear akan berpisah dari element yang mengalami float dan akan berpindah pada barisan baru. 
 ![Gambar/1_1.png](Gambar/1_1.png)
 
