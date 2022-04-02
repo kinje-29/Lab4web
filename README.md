@@ -89,6 +89,6 @@ maka tampilanya akan seperti dibawah.
 ![Gambar/html.kontak.png](Gambar/html.kontak.png)
 ![Gambar/css.kontak.png](Gambar/css.kontak.png)
 ![Gambar/css1.kontak.png](Gambar/css.kontak1.png)
-![Gambar/css2.kontak.png](Gambar/css2.kontak.png)
+![Gambar/css2.kontak.png](Gambar/css.kontak2.png)
 ![Gambar/css3.kontak.png](Gambar/css.kontak3.png)
 ![Gambar/css4.kontak.png](Gambar/css.kontak4.png)
