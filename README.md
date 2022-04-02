@@ -68,3 +68,27 @@ maka tampilanya akan seperti dibawah.
 ### Membuat Artikel
 ![Gambar/10.png](Gambar/10.png)
 ![Gambar/10_10.png](Gambar/10_10.png)
+
+
+
+# Pertanyaan Dan Tugas
+1. Tambahkan Layout untuk menu About
+=> buat single layout yang berisi deskripsi, portfolio, dll
+2. Tambahkan layout untuk menu Contact
+=> yang berisi form isian: nama, email, message, dll
+
+### MEmbuat Menu About
+![Gambar/html.about.png](Gambar/html.about.png)
+![Gambar/css.about.png](Gambar/css.about.png)
+![Gambar/css.about1.png](Gambar/css.about1.png)
+![Gambar/css.about2.png](Gambar/css.about2.png)
+![Gambar/css.about3.png](Gambar/css.about3.png)
+
+
+### Membuat Menu Kontak
+![Gambar/html.kontak.png](Gambar/html.kontak.png)
+![Gambar/css.kontak.png](Gambar/css.kontak.png)
+![Gambar/css1.kontak.png](Gambar/css1.kontak.png)
+![Gambar/css2.kontak.png](Gambar/css2.kontak.png)
+![Gambar/css3.kontak.png](Gambar/css3.kontak.png)
+![Gambar/css4.kontak.png](Gambar/css4.kontak.png)
