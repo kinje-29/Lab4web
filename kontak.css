@@ -22,12 +22,16 @@ body {
 
 /* header */ 
 header { 
-    padding: 20px; 
+    padding-bottom: 50px;
+    min-height: 150px;
+    background-image: url(Gambar/2.jpg);
+    background-size: cover;
+    background-position: center; 
 } 
-header h1 { 
+/* header h1 { 
     margin: 20px 10px; 
     color: #b5b5b5; 
-}
+} */
 
 /* Navigasi */
 nav{
