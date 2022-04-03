@@ -1,118 +1,106 @@
 /* import google font */ 
-@import 
-url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import 
-url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 
- /* Reset CSS */ 
- * {
-    margin: 0; 
-    padding: 0; 
-    } 
 
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    section{
-        width: 980px;
-        margin: 0 auto;
-        box-shadow:  0 0 1em #cccccc;
-    }
-    header { 
-        padding: 20px; 
-    } 
-    header h1 { 
-        margin: 5px 10px; 
-        color: #b5b5b5; 
-    }
-    nav{
-        display: block;
-        background-color: #696d72;
-    }
-    nav a{ 
-        padding: 15px 30px; 
-        display: inline-block; 
-        color: #ffffff; 
-        font-size: 14px; 
-        text-decoration: none; 
-        font-weight: bold; 
-    } 
-    nav a.active, nav a:hover { 
-        background-color: #18191b;
-    }
-    
-    .cointaner{
-        color: white;
-        background: grey;
-        text-align: center;
-        /* height: 600px; */
-    }
-    .cointaner .judul{
-        /* background-image: url(G:/Web/latihanwebonklik/gambar/22.png); */
-        image-resolution: initial;
-        min-height: 400px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .cointaner .judul h1{
-        font-size: 40px;
-        padding-left: 50px;
-        padding-top: 30px;
-        padding-bottom: 5px;
-        text-align: left;
-        
-    }
-    
-    .cointaner .judul h3{
-        padding-bottom: 30px;
-        text-align: left;
-        font-size: 60px;
-        padding-left: 50px;
-        text-shadow: 5px 5px 21px rgb(34, 34, 33);
-    }
-    .cointaner .judul p{
-        text-align: center;
-        /* padding-left: 50px; */
-        padding-top: 5px;
-    }
-    
-    .cointaner .judul .para{
-        padding-top: 25px;
-        margin-top: 70px;
-    }
-    
-    .cointaner .judul .akhir{
-        padding-bottom: 30px;
-    }
-    .cointaner .judul img{
-        border-radius: 50px;
-        box-shadow: 5px 0px 50px rgb(34, 34, 33);
-        float: right;
-        margin-right: 100px;
-        margin-top: -150px;
-    }
-    
-    footer{
-        background-color: darkslategrey;
-        color: white;
-        height: 50px;
-        align-items: center;
-        font-size: 12px;
-    }
-    
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    line-height: 1;
+    font-size: 100%;
+    font-family: 'open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
+.container{
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+
+/* header */ 
+header { 
+    padding-bottom: 50px;
+    min-height: 150px;
+    background-image: url(Gambar/2.jpg);
+    background-size: cover;
+    background-position: center; 
+} 
+/* header h1 { 
+    margin: 20px 10px; 
+    color: #b5b5b5; 
+} */
+
+/* Navigasi */
+nav{
+    display: block;
+    background-color: #696d72;
+}
+nav a{ 
+    padding: 15px 30px; 
+    display: inline-block; 
+    color: #ffffff; 
+    font-size: 14px; 
+    text-decoration: none; 
+    font-weight: bold; 
+} 
+
+nav a.active, nav a:hover { 
+    background-color: #18191b;
+}
+
+.konten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 20px;
+    /* margin-bottom: 20px; */
+    background-color: #454547;
+    color: white;
+}
+
+.konten img{
+    width: 300px;
+    /* padding-left: 50px; */
+    margin-left: 70px;
+    border-radius: 50%;
+    box-shadow: 5px 0px 25px rgb(34,34,35);
+}
+
+.konten h1{
+    padding-bottom: 15px;
+}
+.konten h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.konten .konten-hobi{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+/* .konten .konten-hobi h3{
+    padding-bottom: 20px;
+} */
+
+.konten .konten-hobi hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.konten p{
+    line-height: 25px;
+}
+
 /* Footer */
 footer{
     clear: both;
     background-color: #1d1d1d;
     padding: 20px;
     color: #eee;
-    display: block;
-}
-
-footer p{
-    text-align: center;
-    margin-top: 25px;
-    font-size: 15px;
 }
